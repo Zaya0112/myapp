@@ -3,9 +3,11 @@ export const Button = () => {
     <button
       style={{
         display: "flex",
-        backgroundColor: "gray",
-        padding: "16px",
-      }}
+        fontSize: "19px",
+        border: "2px",
+        backgroundColor: "taransparent",
+        alignItems:"center",
+       }}
     >
       Get access
     </button>
