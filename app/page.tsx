@@ -1,4 +1,5 @@
 import Image1 from "../public/image1.jpg";
+import { Logo } from "./components/logo";
 import { BlueButton } from "./components/blue-button";
 import { Button } from "./components/button";
 import { EmailInput } from "./components/email-input";
@@ -22,6 +23,7 @@ export default function Home() {
           backgroundColor: "#F5F7FA",
         }}
       >
+        <Logo/>
         <div
           style={{
             display: "flex",
@@ -85,6 +87,7 @@ export default function Home() {
 
         <Star />
       </div>
+     
     </main>
   );
 }
